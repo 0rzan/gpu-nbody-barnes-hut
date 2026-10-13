@@ -1,6 +1,6 @@
-# GPU N-Body Simulation — Barnes–Hut in CUDA
+# GPU N-Body Simulation - Barnes-Hut in CUDA
 
-A 3-D gravitational n-body simulator using the Barnes–Hut approximation, running
+A 3D gravitational n-body simulator using the Barnes–Hut approximation, running
 entirely on the GPU as a six-kernel pipeline (bounding box, tree build, mass
 summarization, sort, force calculation, integration). The force kernel was
 profiled and tuned with Nsight Compute/Systems (see [`profiling/`](profiling/)).
