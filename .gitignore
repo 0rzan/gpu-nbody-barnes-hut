@@ -1,0 +1,16 @@
+# Build artifacts
+barneshut
+*.o
+*.out
+output*.txt
+
+# Nsight / profiler reports
+*.ncu-rep
+*.ncu-occ
+*.nsys-rep
+*.sqlite
+
+# Python
+__pycache__/
+venv/
+*.pyc
